@@ -1,0 +1,12 @@
+{
+  "refresh_interval": 5,
+  "retention_days": 7,
+  "alert_threshold_restart": 5,
+  "alert_threshold_memory_percent": 80,
+  "alert_threshold_cpu_percent": 90,
+  "web_port": 8080,
+  "web_host": "0.0.0.0",
+  "docker_socket": "unix:///var/run/docker.sock",
+  "log_level": "INFO",
+  "metrics_export_path": "./metrics.json"
+}
